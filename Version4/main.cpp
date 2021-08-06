@@ -155,19 +155,19 @@ void rules()
 //______________________________________________________________________________
 
 //Counting total right guessed, partial guessed colors in the pattern
-void count(char guess[], char &RCWP, char &RCRP, const char ptrn[], const int len)
+void count(char guess[], char &RCWP, char &RCRP, const char ptrn[], int len)
 {
     bool check = false;                                    //Flag
     const char dsize = 8;                                  //Colors domain size
     
     //Declaration and Initialization of blockG (Block Guess) array to block 
     //all those position in Guess array which already had been matched.
-    char blockG[len+1] = {'\0'};
+    char blockG[len+1]; //{'\0'};
     char blkGlen='\0';                               //blockG array length
     
     //Declaration and Initialization of blockP (Block Pattern) array to block 
     //all those position in actual Pattern array which already had been matched.
-    char blockP[len+1] = {'\0'};
+    char blockP[len+1]; //{'\0'};
     char blkPlen='\0';                              //blockP array length
     
     //Asking user for Guess

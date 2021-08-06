@@ -101,7 +101,7 @@
 #include <cstdint>          // (since C++11) 	fixed-size types and limits of other types
 #include <cinttypes>        // (since C++11) 	formatting macros , intmax_t and uintmax_t math and conversions
 #include <system_error>     // (since C++11) 	defines std::error_code, a platform-dependent error code
-#include <cuchar>           // (since C++11) 	C-style Unicode character conversion functions
+//#include <cuchar>           // (since C++11) 	C-style Unicode character conversion functions
 #include <array>            // (since C++11) 	std::array container
 #include <forward_list>     // (since C++11) 	std::forward_list container
 #include <unordered_set>    // (since C++11) 	std::unordered_set and std::unordered_multiset unordered associative containers
@@ -114,7 +114,7 @@
 #include <atomic>           // (since C++11) 	Atomic operations library
 #include <ccomplex>         // (since C++11)(deprecated in C++17) 	simply includes the header <complex>
 #include <ctgmath>          // (since C++11)(deprecated in C++17) 	simply includes the headers <ccomplex> (until C++17)<complex> (since C++17) and <cmath>: the overloads equivalent to the contents of the C header tgmath.h are already provided by those headers
-#include <cstdalign>        // (since C++11)(deprecated in C++17) 	defines one compatibility macro constant
+//#include <cstdalign>        // (since C++11)(deprecated in C++17) 	defines one compatibility macro constant
 #include <cstdbool>         // (since C++11)(deprecated in C++17) 	defines one compatibility macro constant
 #include <thread>           // (since C++11) 	std::thread class and supporting functions
 #include <mutex>            // (since C++11) 	mutual exclusion primitives
