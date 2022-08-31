@@ -26,23 +26,36 @@ If all the moves are exhausted and you’re unable to guess the correct pattern.
 # Game Play
 ## 1. User Instructions:
 All the instructions and game rule will be notified to the user before game starts.
+
 ![image](https://user-images.githubusercontent.com/85970478/187520312-2e27ffe6-d550-4759-90ce-6855025c88f5.png)
+
 ## 2. Code Length:
 User is asked to select the length of the pattern which he/she wants to use in the gameplay. User can choose any length from 1 to 8 by entering a valid input value. In case, user enters invalid value, the user will be asked to input the length again.
+
 ![image](https://user-images.githubusercontent.com/85970478/187527227-ada11f4b-92b4-49f2-8c04-ac27d71ca4ea.png)
+
 ## 3. Duplicate Allowance:
-User will be given an option that does he/she wants to allow duplicates in the code pattern. He/she will be asked to enter 1 to allow, or 0 to not. In case, if user enters invalid input, then the user will be asked to input the length again.
+User will be given an option that does he/she wants to allow duplicates in the code pattern. He/she will be asked to enter 1 to allow, or 0 to not. In case, if user enters invalid input, then the user will be asked to input the length again. User will be given an option that does he/she wants to allow duplicates in the code pattern. He/she will be asked to enter 1 to allow, or 0 to not. In case, if user enters invalid input, then the user will be asked to input the length again.
+
 ![image](https://user-images.githubusercontent.com/85970478/187527289-77bdef63-c82f-4f7a-a468-cd9c6e776aed.png)
-User will be given an option that does he/she wants to allow duplicates in the code pattern. He/she will be asked to enter 1 to allow, or 0 to not. In case, if user enters invalid input, then the user will be asked to input the length again.
+
 ## 4. Entering Guesses:
 User can choose any color code from the given color scheme. Validations are placed if user chooses invalid color code, or/and invalid code length.
+
 ![image](https://user-images.githubusercontent.com/85970478/187527402-5d7d5524-20b6-4704-ab35-514013da9171.png)
+
 ## 5. Gameboard Display:
 With each guess entered, following configuration will appear telling the user about his/her progress in cracking the code.
+
 ![image](https://user-images.githubusercontent.com/85970478/187527474-d5be36a9-f82e-4e6d-8cfa-b1569cbbef04.png)
+
 ## 6. Game End:
 After game ends, user will be notified about the status of his gameplay and correct pattern is displayed.
+
 User lost scenario:
+
 ![image](https://user-images.githubusercontent.com/85970478/187527669-d0fc84c2-a4d4-4cb0-834d-1d584f72b9f2.png)
+
 User won scenario:
+
 ![image](https://user-images.githubusercontent.com/85970478/187527730-674af47a-b23f-4962-b409-18d290c49b3f.png)
