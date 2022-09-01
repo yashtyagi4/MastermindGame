@@ -4,6 +4,8 @@ Mastermind is a strategic board game where user has to crack the secret hidden c
 
 **Written In C++ with compiler G++ (MinGW.org GCC-6.3.0-1)**
 
+**NetBeans IDE was used with Cygwin-Windows debugger**
+
 # Game Rules
 
 1. The user will have a maximum of 10 guesses to crack the pattern.
