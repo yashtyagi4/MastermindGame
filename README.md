@@ -1,4 +1,6 @@
-# Mastermind Game
+![Screen Shot 2022-08-31 at 10 10 57 PM](https://user-images.githubusercontent.com/85970478/187823962-1f6436b0-bbc7-4f73-8c64-6b106f28147b.png)
+
+# 
 
 Mastermind is a strategic board game where user has to crack the secret hidden color pattern by making guesses. With each guess, the game will tell you that in your guessed pattern, how many colors are in the actual pattern and how many are not.
 
